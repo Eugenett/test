@@ -1,0 +1,552 @@
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+#top {
+	height: 100px;
+	line-height: 100px;
+}
+
+.header-fix.scroll {
+    position: fixed;
+    padding-top: 0;
+    z-index: 333333;
+    height: 89px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0,.5);  
+    left: 0;
+    right: 0;
+    top: 0;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+.header-fix.scroll .header-language {
+    border: none;
+    position: relative;
+    top: 0;
+    right: 210px;
+}
+.header-fix.scroll .header-logo__img{
+    width: 70%;
+    position: relative;
+    top: 0;
+    left: 210px;
+}
+.header-fix.scroll .header-menu {
+    position: relative;
+    top: 0;
+    right: 200px;
+}
+
+.slider-wrapper {
+    margin-top: 50px;
+}
+.prev-arrow{
+    background: url(../img/left_default.png) no-repeat center;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 30px;
+    bottom: 0;
+
+}
+.prev-arrow_2{
+    background: url(../img/left_default.png) no-repeat center;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+
+}
+.prev-arrow:hover,
+.prev-arrow_2:hover {
+    background: url(../img/left_hover_active.png) no-repeat center;
+}
+.next-arrow {
+    background: url(../img/right_default.png) no-repeat center;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+.next-arrow_2 {
+    background: url(../img/right_default.png) no-repeat center;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+.next-arrow:hover,
+.next-arrow_2:hover {
+    background: url(../img/right_hover_active.png) no-repeat center;
+}
+.slider1 > .owl-nav {
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%);
+    text-align: center;
+}
+.slider2 > .owl-nav {
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%);
+    text-align: center;
+}
+.slider-link {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(66,66,66,0.7);
+    transition: 0.3s;
+}
+.owl-item.active:hover .slider-link {
+    opacity: 1;
+}
+.owl-item.active:hover .description-overlay {
+    opacity: 1;
+}
+.description-overlay {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 15px;
+    opacity: 0;
+}
+.overlay-name {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.overlay-desc {
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 16px;
+}
+.overlay-par {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.slider-wrap {
+    width: 1170px;
+
+    margin: 70px auto;
+    transform: skewY(3deg);
+}
+.rng1 {
+    margin-top: 40px;
+}
+.iframe-map {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    height: 450px;
+    outline: 1px solid #5ed850;
+    border: 1px solid #5ed850;
+    width: 70%;
+    top: 25%;
+    left: 15%;
+}
+/*.close-map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  cursor: pointer;
+}*/
+.addImg1 {
+    background: url(../img/icon_1_active.png) no-repeat;
+}
+.addImg2 {
+    background: url(../img/icon_2_active.png) no-repeat;
+}
+.addImg3 {
+    background: url(../img/icon_3_active.png) no-repeat;
+}
+.addImg4 {
+    background: url(../img/icon_4_active.png) no-repeat;
+}
+.addImg5 {
+    background: url(../img/icon_5_active.png) no-repeat;
+}
+.addImg6 {
+    background: url(../img/icon_6_active.png) no-repeat;
+}
+
+#form input[type="text"] {
+    color: black;
+    font-size: 16px;
+}
+
+.about-us__job-accordion {
+  padding-left: 60px; }
+
+.about-us__job-accordion-item {
+  margin-bottom: 35px; }
+
+.about-us__job-accordion-title {
+  color: #666666;
+  padding-bottom: 10px;
+ font-size: 20px;
+   }
+
+.about-us__job-accordion-title-block {
+  border-bottom: 2px solid #b0b0b0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+
+.about-us__job-accordion-main-text {
+  color: #727272;
+  margin: 25px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.about-us__job-accordion-main-list {
+  list-style: none;
+  margin-bottom: 35px; }
+
+.about-us__job-accordion-main-list-item {
+  color: #727272;
+  padding-left: 25px;
+  position: relative; }
+
+.about-us__job-accordion-main-list-item:before {
+  content: '';
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 3px;
+  height: 3px;
+  background-color: #727272;
+  position: absolute;
+  left: 0;
+  top: 9px; }
+
+.about-us__job-accordion-main-title {
+  color: #666666;
+  margin-bottom: 35px;
+  position: relative;
+   }
+
+.about-us__job-accordion-main-title:after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: #5ed850;
+  position: absolute;
+  left: 0;
+  bottom: -17px; }
+
+.about-us__job-accordion-main-text-end {
+  color: #727272;
+  margin-bottom: 55px; }
+
+.active-accordion {
+  border-bottom: 2px solid #5ed850; }
+
+.about-us__job-accordion-main-block {
+  display: none; }
+
+.about-us__job-accordion-button-toggle {
+  position: relative;
+  cursor: pointer; }
+
+.about-us__job-accordion-button-toggle-img {
+  width: 16px;
+  height: 24px;
+  background-image: url("../img/left_dewnt.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: -28px;
+  right: -50px;
+  -webkit-transform: 0.3s;
+  -ms-transform: 0.3s;
+  transform: 0.3s; }
+
+.about-us__job-accordion-title-block {
+  position: relative; }
+.about-us__job-accordion-item:hover .about-us__icon-1 {
+    background-image: url(../img/icon_1_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__icon-2 {
+    background-image: url(../img/icon_2_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__icon-3 {
+    background-image: url(../img/icon_3_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__icon-4 {
+    background-image: url(../img/icon_4_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__icon-5 {
+    background-image: url(../img/icon_5_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__icon-6 {
+    background-image: url(../img/icon_6_active.png);
+}
+.about-us__job-accordion-item:hover .about-us__job-accordion-title-block {
+  border-bottom: 2px solid #5ed850; }
+
+.about-us__job-accordion-item:hover .about-us__job-accordion-button-toggle-img {
+  background-image: url("../img/btn-toggle-3.png"); }
+
+.accordion-rotate {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-image: url("../img/btn-toggle-3.png"); }
+
+.about-us__icon {
+  position: absolute;
+  left: -80px;
+  top: -3px;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.about-us__icon-1 {
+  background-image: url("../img/icon_1_default.png"); }
+
+.about-us__icon-2 {
+  background-image: url("../img/icon_2_default.png"); }
+
+.about-us__icon-3 {
+  background-image: url("../img/icon_3_default.png"); }
+
+.about-us__icon-4 {
+  background-image: url("../img/icon_4_default.png"); }
+
+.about-us__icon-5 {
+  background-image: url("../img/icon_5_default.png"); }
+
+.about-us__icon-6 {
+  background-image: url("../img/icon_6_default.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-1 {
+  background-image: url("../img/icon_1_active.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-2 {
+  background-image: url("../img/icon_2_active.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-3 {
+  background-image: url("../img/icon_3_active.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-4 {
+  background-image: url("../img/icon_4_active.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-5 {
+  background-image: url("../img/icon_5_active.png"); }
+
+.about-us__job-accordion-title-block:hover .about-us__icon-6 {
+  background-image: url("../img/icon_6_active.png"); }
+
+.about-us__icon-active-1 {
+  background-image: url("../img/icon_1_active.png");
+  background-position: center; }
+
+.about-us__icon-active-2 {
+  background-image: url("../img/icon_2_active.png");
+  background-position: center; }
+
+.about-us__icon-active-3 {
+  background-image: url("../img/icon_3_active.png");
+  background-position: center; }
+
+.about-us__icon-active-4 {
+  background-image: url("../img/icon_4_active.png");
+  background-position: center; }
+
+.about-us__icon-active-5 {
+  background-image: url("../img/icon_5_active.png");
+  background-position: center; }
+
+.about-us__icon-active-6 {
+  background-image: url("../img/icon_6_active.png");
+  background-position: center; }
+
+.about-us__job-accordion-main-block h5 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+.overview {
+    visibility: hidden;
+    position: fixed;
+    z-index: 999;
+    height: 450px;
+    outline: 1px solid #5ed850;
+    border: 1px solid #5ed850;
+    width: 70%;
+    top: 25%;
+    left: 15%;
+}
+.parallax-window {
+   /* overflow: hidden;*/
+    height: 100%;
+    /*background: transparent;*/
+    z-index: 11111;
+}
+
+
+.slideritem-img {
+    float: left;
+    clear: both;
+    margin-right: 15px;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px !important;
+}
+.slideritem-content p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.slideritem-content h4 {
+    font-size: 20px;
+    color: #fff;
+}
+.slider2-wrapper {
+    /*display: inline-block;*/
+}
+
+/*1-slide*/
+ .img1 {
+    background: url(../img/Bootstrap.png) no-repeat center / contain;;
+}
+.img2 {
+    background: url(../img/C.png) no-repeat center / contain;;
+}
+/*2-slide*/
+.img3 {
+    background: url(../img/Focused.png) no-repeat center / contain;;
+}
+.img4 {
+    background: url(../img/css.png) no-repeat center / contain;;
+}
+/*3-slide*/
+.img5 {
+    background: url(../img/docker.png) no-repeat center / contain;;
+}
+.img6 {
+    background: url(../img/eslint.png) no-repeat center / contain;;
+}
+/*4-slide*/
+.img7 {
+    background: url(../img/git.png) no-repeat center / contain;
+}
+.img8 {
+    background: url(../img/gulp.png) no-repeat center / contain;;
+}
+/*5-slide*/
+.img9 {
+    background: url(../img/WordPress.png) no-repeat center / contain;;
+}
+.img10 {
+    background: url(../img/android-studio.png) no-repeat center / contain;
+}
+/*6-slide*/
+.img11 {
+    background: url(../img/VirtueMart1.png) no-repeat center / contain;
+}
+.img12 {
+    background: url(../img/Redmine.png) no-repeat center / contain;
+}
+/*7-slide*/
+.img13 {
+    background: url(../img/JavaScript.png) no-repeat center / contain;
+}
+.img14 {
+    background: url(../img/Java.png) no-repeat center / contain;
+}
+/*8-slide*/
+.img15 {
+    background: url(../img/GitLab.png) no-repeat center / contain;
+}
+.img16 {
+    background: url(../img/Joomla.png) no-repeat center / contain;
+}
+/*9-slide*/
+.img17 {
+    background: url(../img/blueprint.png) no-repeat center / contain;
+}
+.img18 {
+    background: url(../img/hapi.png) no-repeat center / contain;
+}
+/*10-slide*/
+.img19 {
+    background: url(../img/illustrator.png) no-repeat center / contain;
+}
+.img20 {
+    background: url(../img/jquery.png) no-repeat center / contain;
+}
+/*11-slide*/
+.img21 {
+    background: url(../img/mysql.png) no-repeat center / contain;
+}
+.img22 {
+    background: url(../img/net.png) no-repeat center / contain;
+}
+/*12-slide*/
+.img23 {
+    background: url(../img/nginx.png) no-repeat center / contain;
+}
+.img24 {
+    background: url(../img/node.png) no-repeat center / contain;
+}
+/*13-slide*/
+.img25 {
+    background: url(../img/photoshop.png) no-repeat center / contain;
+}
+.img26 {
+    background: url(../img/php.png) no-repeat center / contain;
+}
+/*14-slide*/
+.img27 {
+    background: url(../img/react.png) no-repeat center / contain;
+}
+.img28 {
+    background: url(../img/redux.png) no-repeat center / contain;
+}
+/*15-slide*/
+.img29 {
+    background: url(../img/sass.png) no-repeat center / contain;
+}
+.img30 {
+    background: url(../img/webpack.png) no-repeat center / contain;
+}
+/*16-slide*/
+.img31 {
+    background: url(../img/yii-2.png) no-repeat center / contain;
+}
+.img32 {
+    background: url(../img/android.png) no-repeat center / contain;
+}
